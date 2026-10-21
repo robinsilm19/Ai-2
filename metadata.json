@@ -1,0 +1,10 @@
+{
+  "name": "Hans — Voice of Robin Silm",
+  "description": "Sophisticated minimalist voice assistant representing Robin Silm, featuring deep American male voice synthesis, live audio visualization, and verified craftsmanship portfolio.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

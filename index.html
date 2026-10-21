@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hans — Voice of Robin Silm</title>
+    <meta
+      name="description"
+      content="Sophisticated minimalist voice assistant representing Robin Silm, featuring deep American male voice synthesis, live audio visualization, and verified craftsmanship portfolio."
+    />
+    <meta property="og:title" content="Hans — Voice of Robin Silm" />
+    <meta
+      property="og:description"
+      content="Sophisticated minimalist voice assistant representing Robin Silm, featuring deep American male voice synthesis, live audio visualization, and verified craftsmanship portfolio."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..800;1,400..800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      // Prevent benign dev-server WebSocket notices from bubbling in sandboxed iframe preview
+      window.addEventListener('error', function (e) {
+        if (e?.filename && e.filename.includes('@vite/client')) {
+          e.stopImmediatePropagation();
+        }
+      }, true);
+    </script>
+  </head>
+  <body class="bg-[#FAF7F2] text-[#1C1917] antialiased selection:bg-[#E5DFD3] selection:text-[#1C1917]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
